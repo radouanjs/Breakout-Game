@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: monospace;
+    background-color: #06568ce0;
+}
+#canva, .game-winned, .game-over{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2196F3;
+    border: 5px solid black;
+}
+.game-winned, .game-over{
+    width: 500px;
+    height: 600px;
+    background-color: #071d28;
+    opacity:0;
+    border: none;
+}
+.game-over{
+    width: 30%;
+    height: 50%;
+}
+.game-over h1{
+    font-size: 3rem;
+    margin-left: -50px;
+    color: crimson;
+}
+.game-winned h1{
+    font-size: 3rem;
+    margin-left: -75px;
+    margin-top: -50px;
+    color: lightgreen;
+}
+.game-winned img{
+    margin-top: 30px;
+}
+.game-winned-content, .game-over h1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-15%, -50%);
+}
